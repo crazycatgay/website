@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    margin: 0px;
+    background-image: url("html&css/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    height: 125px;
+    width: 100%;
+    border-bottom: solid 2px rgba(216, 184, 2, 0.863);
+    justify-content: space-between;
+}
+
+.top_left {
+    height: 100%;
+    width: 12%;
+    border-right: solid 2px rgba(216, 184, 2, 0.863);
+}
+
+.top_right {
+    height: 100%;
+    width: 12%;
+    border-left: solid 2px rgba(216, 184, 2, 0.863);
+}
+
+.nav_bar {
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(216, 184, 2, 0.863);
+}
+
+.main {
+    height: fit-content;
+    width: 76%;
+    border-left: solid 2px rgba(216, 184, 2, 0.863);
+    border-right: solid 2px rgba(216, 184, 2, 0.863);
+    align-self: center;
+}
+.info {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: space-between;
+}
+.social {
+    position: relative;
+    height: 400px;
+    width: 310px;
+}
+.twitter {
+    position: absolute;
+    height: 380px;
+    width: 290px;
+    top:10px;
+    left:10px;
+}
+.background_social {
+    top:0px;
+    left:0px;
+    position: absolute;
+    height: 400px;
+    width: 310px;
+    background-color: black;
+    opacity: 0.4;
+}
+.bio {
+    height: 400 px;
+    width: 600px;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.middle {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin-top: 10px;
+
+}
+.album_ad_back {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 800px;
+    background-color: black;
+    opacity: 0.4;
+}
+.boudoir_out {
+       
+}
+.album_ad {
+    position:absolute;
+    top: 12%;
+    left: 29%;
+}
+p {
+    color: rgba(216, 184, 2, 0.863);
+    font-size:xx-large;
+}
+h1 {
+    color: rgba(216, 184, 2, 0.863);
+}
